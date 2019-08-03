@@ -2,6 +2,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import MoviesList from '../components/MoviesList';
+import MovieShow from './MovieShow';
+
 
 const MoviesPage = ({ movies }) => 
   <div>
